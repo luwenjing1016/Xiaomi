@@ -14,14 +14,23 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
 Route::get('index',"IndexController@index");
 Route::get('liebiao',"IndexController@liebiao");
 Route::get('details',"IndexController@details");
 Route::get('shopcart',"Xiaomi/IndexController@shopcart");
-Route::get('login',"Xiaomi/UserController@login");
-Route::get('register',"Xiaomi/UserController@register");
-Route::get('self_info',"Xiaomi/UserController@self_info");
-Route::get('order',"Xiaomi/UserController@order");
+
+
+Route::get('login',"UserController@login");
+Route::get('loginout',"UserController@loginout");
+Route::post('doLogin',"UserController@doLogin");
+Route::post('doRegister',"UserController@doRegister");
+Route::get('register',"UserController@register");
+Route::get('selfInfo',"UserController@selfInfo");
+Route::get('order',"UserController@order");
+Route::get('show',"Test1Controller@show");
+
 
 
 

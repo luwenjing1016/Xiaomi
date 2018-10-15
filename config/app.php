@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => env('PRC') ,
 
     /*
     |--------------------------------------------------------------------------
@@ -120,6 +120,11 @@ return [
     */
 
     'providers' => [
+
+        /*
+         * 验证码
+         * */
+        Mews\Captcha\CaptchaServiceProvider::class,
 
         /*
          * Laravel Framework Service Providers...
@@ -182,6 +187,7 @@ return [
         'Broadcast' => Illuminate\Support\Facades\Broadcast::class,
         'Bus' => Illuminate\Support\Facades\Bus::class,
         'Cache' => Illuminate\Support\Facades\Cache::class,
+        'Captcha'=> Mews\Captcha\Facades\Captcha::class,
         'Config' => Illuminate\Support\Facades\Config::class,
         'Cookie' => Illuminate\Support\Facades\Cookie::class,
         'Crypt' => Illuminate\Support\Facades\Crypt::class,
