@@ -13,6 +13,7 @@ use App\Http\Controllers\Controller;
 class UserController extends Controller
 {
 
+    //注册
     //注册页面
     public function register()
     {
