@@ -14,8 +14,17 @@
 Route::get('/', function () {
     return view('welcome');
 });
+/*
+ * 后台路由
+ * */
+Route::get('admin/login',function(){
+    return view('admin.login');
+});
 
 
+/*
+ * 前台路由
+ * */
 Route::get('index',"IndexController@index");
 Route::get('liebiao',"IndexController@liebiao");
 Route::get('details',"IndexController@details");
