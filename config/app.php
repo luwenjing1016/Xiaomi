@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'timezone' => env('PRC') ,
+    'timezone' => 'PRC' ,
 
     /*
     |--------------------------------------------------------------------------
@@ -164,6 +164,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        JeroenNoten \ LaravelAdminLte \ ServiceProvider :: class,
 
     ],
 
