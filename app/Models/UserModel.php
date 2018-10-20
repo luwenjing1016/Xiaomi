@@ -48,7 +48,7 @@ class UserModel extends Model
     //退出登录
     public static function loginOut($uname)
     {
-        return DB::table('user')->where('uname',$uname)->update(['status'=>0]);
+        return DB::table('user')->where('email',$uname)->orwhere('mobile',$uname)->update(['status'=>0]);
     }
 
 }
