@@ -119,54 +119,6 @@ use Illuminate\Support\Facades\Session;
                     @endforeach
                 </li>
             @endforeach
-            {{--<li>--}}
-                {{--<a href="">手机</a>--}}
-                {{--<a href="">电话卡</a>--}}
-                {{--<div class="pop">--}}
-                    {{--<div class="left fl">--}}
-                        {{--<div>--}}
-                            {{--<div class="xuangou_left fl">--}}
-                                {{--<a href="">--}}
-                                    {{--<div class="img fl"><img src="./image/xm6_80.png" alt=""></div>--}}
-                                    {{--<span class="fl">小米6</span>--}}
-                                    {{--<div class="clear"></div>--}}
-                                {{--</a>--}}
-                            {{--</div>--}}
-                            {{--<div class="xuangou_right fr"><a href="./xiangqing.html" target="_blank">选购</a></div>--}}
-                            {{--<div class="clear"></div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                    {{--<div class="ctn fl">--}}
-                        {{--<div>--}}
-                            {{--<div class="xuangou_left fl">--}}
-                                {{--<a href="">--}}
-                                    {{--<div class="img fl"><img src="./image/xm5-80.jpg" alt=""></div>--}}
-                                    {{--<span class="fl">小米手机5</span>--}}
-                                    {{--<div class="clear"></div>--}}
-                                {{--</a>--}}
-                            {{--</div>--}}
-                            {{--<div class="xuangou_right fr"><a href="">选购</a></div>--}}
-                            {{--<div class="clear"></div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                    {{--<div class="right fl">--}}
-                        {{--<div>--}}
-                            {{--<div class="xuangou_left fl">--}}
-                                {{--<a href="">--}}
-                                    {{--<div class="img fl"><img src="./image/compare.jpg" alt=""></div>--}}
-                                    {{--<span class="fl">对比手机</span>--}}
-                                    {{--<div class="clear"></div>--}}
-                                {{--</a>--}}
-                            {{--</div>--}}
-                            {{--<!-- <div class="xuangou_right fr"><a href="">选购</a></div> -->--}}
-                            {{--<div class="clear"></div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                    {{--<div class="clear"></div>--}}
-                {{--</div>--}}
-            {{--</li>--}}
-        {{--</ul>--}}
-    {{--</div>--}}
     </ul>
 </div>
 
